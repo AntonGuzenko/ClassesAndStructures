@@ -27,11 +27,19 @@ class StudentClass {
     }
 }
 
-
+struct StudentStruct {
+    var name : String
+    var age : Int
+}
  
 let stClass = StudentClass()
 stClass.age = 33
 stClass.name = "Anton"
-
 let stClass2 = StudentClass(name: "Bob", age: 18)
+
+
+var stStruct = StudentStruct(name: "Sam", age: 24)
+stStruct.name = "Sam2"
+stStruct.age = 21
+
 
