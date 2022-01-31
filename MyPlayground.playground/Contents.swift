@@ -12,7 +12,7 @@ let student3 = (nam: "Sam", ag: 23)
 student3.nam
  */
 
-class Student {
+class StudentClass {
     var name : String
     var age : Int
     
@@ -26,10 +26,12 @@ class Student {
         self.age = age
     }
 }
- 
-let student1 = Student()
-student1.age = 33
-student1.name = "Anton"
 
-let student2 = Student(name: "Bob", age: 18)
+
+ 
+let stClass = StudentClass()
+stClass.age = 33
+stClass.name = "Anton"
+
+let stClass2 = StudentClass(name: "Bob", age: 18)
 
